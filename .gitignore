@@ -20,3 +20,63 @@ rad.json
 *.flf
 #Test results file
 TestResults.xml
+
+# Python bytecode/cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment and secrets
+.env
+.env.*
+*.env
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# Caches and tooling
+pip-cache/
+.cache/
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.pytype/
+.pyre/
+
+# IDE/editor
+.vscode/
+.idea/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Logs and databases
+*.log
+*.sqlite
+*.sqlite3
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Project-specific large/generated data
+downloads/
+response/
+response.json
+urls/
+
+# Instagram session/auth artifacts (common for clients)
+*.session
+
+# Zone Identifier (Windows alt streams)
+*:Zone.Identifier
